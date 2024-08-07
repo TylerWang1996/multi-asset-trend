@@ -6,4 +6,6 @@ The Python script tsmom.py takes in multi-asset futures data in the from of data
 
 This also shows backtested performance of portfolios in said CSVs.
 
+Please see requirements.txt for packages used.
+
 NOTE: This is meant to be a simple illustrative example of a multi-asset trend strategy as an educational exercise and not a live-tested investment strategy.
