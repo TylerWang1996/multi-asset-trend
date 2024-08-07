@@ -87,7 +87,8 @@ def tsmom_signal(asset_name, cum_returns, vol, lookback, vol_target=0.1):
 
 def tsmom_gearing(signal_returns):
     """
-    Calculate the gearing for a set of signal returns.
+    Calculate the gearing for a set of signal returns which is used to weight 
+    the strategy to ensure a targeted volatility on the portfolio level.
     
     Parameters:
     signal_returns (pd.DataFrame): DataFrame of signal returns.
